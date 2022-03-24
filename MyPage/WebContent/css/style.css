@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  box-shadow: 0 3px 25px 1px rgb(150, 150, 150);
+  position: fixed;
+  width: 100%;
+  /* height: 70px; */
+  background-color: white;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0 7%;
+  width: 5%;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #323232;
+  font-weight: bold;
+  font-size: large;
+  /* transition-duration: 0.5s; */
+}
+
+ul li a:hover {
+  color: #969696;
+}
+
+/* about */
+.about {
+  padding-top: 16%;
+  padding-bottom: 15%;
+  /* background-color: violet; */
+}
+
+.aboutCon {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  /* background-color: yellowgreen; */
+}
+
+.about img {
+  border-radius: 50%;
+  border: 3px solid #323232;
+  margin-left: 10%;
+  display: block;
+  width: 75%;
+}
+
+.info {
+  width: 400px;
+  height: 100%;
+  display: block;
+  padding-left: 3%;
+  /* display: inline-block; */
+  /* background-color: aquamarine; */
+  margin-top: 14%;
+  /* padding-right: 10%; */
+}
+
+.info p {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+.about button {
+  border: 1.9px solid #323232;
+  border-radius: 100px;
+  width: 75px;
+  height: 40px;
+  margin-right: 9%;
+  background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about button:active {
+  color: #969696;
+}
+
+.url {
+  margin-top: 3%;
+}
+
+.url h4 {
+  display: none;
+}
+
+/* skill */
+.skill {
+  background-color: yellowgreen;
+}
+
+.skill p {
+  font-size: 150px;
+  text-align: center;
+  background-color: violet;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
