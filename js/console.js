@@ -21,7 +21,6 @@ function url2(){
         if(show == 0){
             document.getElementById("url2").style.display = "inline-block";
             show++;
-            console.log(show);
         }else{
             document.getElementById("url2").style.display = "none";
             show--;

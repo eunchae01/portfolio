@@ -74,12 +74,12 @@ ul li a:hover {
   padding-bottom: 5%;
 }
 
-.about button {
+.about button,
+button {
   border: 1.9px solid #323232;
   border-radius: 100px;
   width: 75px;
   height: 40px;
-  margin-right: 9%;
   background-color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
@@ -87,12 +87,16 @@ ul li a:hover {
   cursor: pointer;
 }
 
-.about button:active {
+button:active {
   color: #969696;
 }
 
 .url {
   margin-top: 3%;
+}
+
+#urlBtn1 {
+  margin-right: 8%;
 }
 
 .url h4 {
