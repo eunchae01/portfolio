@@ -1,7 +1,7 @@
 function url1(){
     let btn = document.getElementById("urlBtn1")
     let show = 0;
-
+    
     btn.onclick = function(){
         if(show == 0){
             document.getElementById("url1").style.display = "inline-block";

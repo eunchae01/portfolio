@@ -38,7 +38,7 @@ ul li a:hover {
 /* about */
 .about {
   padding-top: 16%;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
   /* background-color: violet; */
 }
 
@@ -72,6 +72,7 @@ ul li a:hover {
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 5%;
+  color: #323232;
 }
 
 .about button,
@@ -104,13 +105,50 @@ button:active {
 }
 
 /* skill */
-.skill {
-  background-color: yellowgreen;
+.skills {
+  /* background-color: yellowgreen; */
+  /* display: block; */
+  margin-bottom: 15%;
 }
 
-.skill p {
+.title {
   font-size: 150px;
+  font-style: italic;
+  color: #323232;
   text-align: center;
-  background-color: violet;
+  margin-bottom: 5%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.skillImg {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skill img {
+  padding-bottom: 2%;
+}
+
+/* projects */
+.project {
+  margin: 0 auto;
+  margin-top: -2%;
+  margin-bottom: 1%;
+}
+
+.project td {
+  padding-right: 50px;
+}
+.project h1 {
+  font-style: italic;
+  color: #323232;
+}
+
+.project img {
+  opacity: 0.5;
+  transition-duration: 1s;
+}
+
+.project img:hover {
+  opacity: 1;
 }

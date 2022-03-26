@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/contact.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="./js/contact.js"></script>
 </head>
 <body>
@@ -26,46 +27,18 @@
             <h1>CONTACT ME!</h1>
 
             <table>
-                <tr>
-                    <td id="name">이름</td>
-                    <td>
-                        <input type="text" id="txtName">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td id="company">소속</td>
-                    <td>
-                        <input type="text" id="txtCompany">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td id="phone">연락처</td>
-                    <td>
-                        <input type="text" id="txtPhone">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td id="email">이메일</td>
-                    <td>
-                        <input type="text" id="txtEmail">
-                    </td>
-                </tr>
-
-                <!-- <tr id="textArea">
+                <tr id="textArea">
                     <div id="textArea"> 
                         <td >전할 말</td>
                         <td>
                             <textarea name="" id="contactText" cols="30" rows="17"></textarea>
                         </td>
                     </div>
-                </tr> -->
+                </tr>
             </table>
 
             <div class="btn">
-                <button id="contactBtn1" onclick="confirm()">confirm</button>
+                <button id="sendBtn" onclick="send()">send</button>
                 <button>quit</button>
             </div>
         </section>
