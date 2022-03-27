@@ -78,6 +78,12 @@ $(document).ready(function(){
             $("#quitBtn").css("cursor", "pointer");
             $("#quitBtn").click(function(){
                 $("#contactText").val("");
+
+                $("#sendBtn").css("color", "#969696");
+                $("#sendBtn").css("cursor", "default");
+                
+                $("#quitBtn").css("color", "#969696");
+                $("#quitBtn").css("cursor", "default");
             })
         }else{
             $("#sendBtn").css("color", "#969696");
