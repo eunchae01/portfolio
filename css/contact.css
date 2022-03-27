@@ -1,6 +1,5 @@
 h1 {
   font-size: 100px;
-  /* background-color: yellowgreen; */
   text-align: center;
   padding-top: 7%;
   font-style: italic;
@@ -10,7 +9,6 @@ h1 {
 table {
   width: 420px;
   height: 430px;
-  /* background-color: bisque; */
   margin: 2% auto;
   text-align: center;
   margin-top: 4%;
@@ -33,12 +31,8 @@ table input {
   width: 250px;
   border-radius: 25px;
   border: 1px solid #323232;
-  /* height: 200px; */
   padding-left: 15px;
   padding-right: 15px;
-  /* margin-top: -15px; */
-  /* text-align: center; */
-  /* background-color: yellowgreen; */
 }
 
 #contactText:focus {
@@ -46,14 +40,17 @@ table input {
 }
 
 .btn {
-  width: 170px;
-  margin: 0 auto;
-  /* background-color: yellowgreen; */
+  text-align: center;
+}
+
+.btn button {
+  color: #969696;
+  cursor: default;
+  transition: 0.5s;
 }
 
 /* thank */
 .container {
-  /* background-color: yellowgreen; */
   text-align: center;
   margin-top: 10%;
 }
@@ -65,4 +62,14 @@ table input {
 
 .container h3 {
   font-size: 25px;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid #323232;
+  margin: 0 auto;
+  display: block;
+  margin-top: -7%;
+  margin-bottom: 3%;
+  /* width: 55%; */
 }
