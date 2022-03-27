@@ -1,7 +1,3 @@
-function blank(){
-    alert("이름, 소속, 연락처나 이메일을 입력해주세요.");
-}
-
 $(document).ready(function(){
     $("#txtName").on("propertychange change keyup paste input", function(){
         let currentName = $(this).val();
@@ -81,7 +77,7 @@ $(document).ready(function(){
 
                 $("#sendBtn").css("color", "#969696");
                 $("#sendBtn").css("cursor", "default");
-                
+
                 $("#quitBtn").css("color", "#969696");
                 $("#quitBtn").css("cursor", "default");
             })
@@ -93,21 +89,4 @@ $(document).ready(function(){
             $("#quitBtn").css("cursor", "default");
         }
     });
-
-
 });
-
-// sended
-// function send(){
-//     let button = document.getElementById("sendBtn");
-
-//     button.onclick = function(){
-//         let txt = document.querySelector("textArea").value;
-
-//         if(txt == ""){
-//             alert("저에게 전하실 말씀을 적어주세요");
-//         }else{
-//             location.href = "contactThk.html";
-//         }
-//     }
-// }

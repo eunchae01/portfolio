@@ -1,29 +1,23 @@
-function url1(){
-    let btn = document.getElementById("urlBtn1")
-    let show = 0;
-    
-    btn.onclick = function(){
-        if(show == 0){
-            document.getElementById("url1").style.display = "inline-block";
-            show++;
-        }else{
-            document.getElementById("url1").style.display = "none";
-            show--;
-        }
-    }
-}
+$(document).ready(function(){
+    let ulr1 = 0, url2 = 0;
 
-function url2(){
-    let btn = document.getElementById("urlBtn2")
-    let show = 0;
-
-    btn.onclick = function(){
-        if(show == 0){
-            document.getElementById("url2").style.display = "inline-block";
-            show++;
+    $("#urlBtn1").click(function(){
+        if(ulr1 == 0){
+            $("#url1").css("display", "inline-block");
+            ulr1++;
         }else{
-            document.getElementById("url2").style.display = "none";
-            show--;
+            $("#url1").css("display", "none");
+            ulr1--;
         }
-    }
-}
+    })
+
+    $("#urlBtn2").click(function(){
+        if(url2 == 0){
+            $("#url2").css("display", "inline-block");
+            url2++;
+        }else{
+            $("#url2").css("display", "none");
+            url2--;
+        }
+    })
+});
